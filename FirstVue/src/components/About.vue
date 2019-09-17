@@ -1,5 +1,5 @@
 <template>
-    <div id="about">
+    <div id="About">
         <h1>{{title}}</h1>
         <p>{{content}}</p>
         <P>{{details()}}</P>
@@ -40,7 +40,7 @@ export default {
     data(){
         return data
     },
-    name:"about",
+    name:"About",
     components:[
 
     ],

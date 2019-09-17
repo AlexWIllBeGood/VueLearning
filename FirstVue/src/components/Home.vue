@@ -30,9 +30,9 @@ export default {
       value:true
     }
   },
-  components:[
+  components:{
     about
-  ],
+  },
   methods:{
     inputEvent:function(){
       console.log("input event!")

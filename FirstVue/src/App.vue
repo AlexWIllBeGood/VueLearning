@@ -1,20 +1,22 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-      <router-link to="/home">home</router-link>
-      <router-link to="/about">about</router-link>
-      <router-view></router-view>
+      <!-- <router-link to="/Home">home</router-link>
+      <router-link to="/About">about</router-link>
+      <router-view></router-view> -->
       <!-- <SelectControl></SelectControl> -->
       <!-- <InputControl></InputControl> -->
+      <RuleForm></RuleForm>
   </div>
 </template>
 <script>
 
 import HelloWorld from './components/HelloWorld'
 import Home from './components/Home'
-import about from './components/about'
+import about from './components/About'
 import SelectControl from './components/SelectControl' 
 import InputControl from './components/InputControl'
+import RuleForm from './components/RuleForm'
 
 export default{
   name:'App',
@@ -23,7 +25,8 @@ export default{
     Home,
     about,
     SelectControl,
-    InputControl
+    InputControl,
+    RuleForm
   }
 }
 </script>
