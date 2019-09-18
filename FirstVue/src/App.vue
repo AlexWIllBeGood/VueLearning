@@ -6,7 +6,11 @@
       <router-view></router-view> -->
       <!-- <SelectControl></SelectControl> -->
       <!-- <InputControl></InputControl> -->
-      <RuleForm></RuleForm>
+      <!-- <RuleForm></RuleForm> -->
+      <!-- <Computed></Computed> -->
+      <!-- <Counter></Counter> -->
+      <!-- <Lazy></Lazy> -->
+      <axios></axios>
   </div>
 </template>
 <script>
@@ -17,6 +21,10 @@ import about from './components/About'
 import SelectControl from './components/SelectControl' 
 import InputControl from './components/InputControl'
 import RuleForm from './components/RuleForm'
+import Computed from './components/Computed'
+import Counter from './components/Counter'
+import Axios from './components/Axios'
+// import Lazy from './components/Lazy'
 
 export default{
   name:'App',
@@ -26,7 +34,11 @@ export default{
     about,
     SelectControl,
     InputControl,
-    RuleForm
+    RuleForm,
+    Computed,
+    Counter,
+    Axios
+    // Lazy
   }
 }
 </script>

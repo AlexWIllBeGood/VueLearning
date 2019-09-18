@@ -151,7 +151,7 @@ export default {
         }
     },
     created(){
-        // this.ruleForm.region=this.RegionList[0].id;
+        this.ruleForm.region=this.RegionList[0].id;
     },
     name:'RuleForm',
     methods:{

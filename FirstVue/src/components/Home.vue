@@ -17,7 +17,6 @@
   </div>
 </template>
 <script>
-import about from './About'
 export default {
   name:"home",
   data(){
@@ -29,9 +28,6 @@ export default {
       showTips:false,
       value:true
     }
-  },
-  components:{
-    about
   },
   methods:{
     inputEvent:function(){
