@@ -37,7 +37,6 @@ export default {
         .catch(function(error){
             console.log(error);
         });
-        
         //获取学习数据
         this.$ajax({
             method:"Get",
@@ -66,8 +65,7 @@ export default {
         this.testQs=this.qs.stringify(o)
         var jsonString=JSON.stringify(o)
         var object=JSON.parse(jsonString)
-        console.log(jsonString)
-        console.log(object)
+        debugger;
     },
     created(){
     },
