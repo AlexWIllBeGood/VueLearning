@@ -1,13 +1,21 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <!-- <img src="./assets/logo.png">
+    <router-view/> -->
+    <MainModule></MainModule>
+    <!-- <Loading></Loading> -->
   </div>
 </template>
 
 <script>
+import MainModule from './components/MainModule'
+import Loading from './components/Loading'
 export default {
-  name: 'App'
+  name: 'App',
+  components:{
+    MainModule,
+    Loading
+  }
 }
 </script>
 
