@@ -1,16 +1,18 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <!-- <img src="./assets/logo.png"> -->
       <!-- <router-link to="/Home">home</router-link>
-      <router-link to="/About">about</router-link>
-      <router-view></router-view> -->
+      <router-link to="/About">about</router-link> -->
+      <!-- <router-view></router-view> -->
       <!-- <SelectControl></SelectControl> -->
       <!-- <InputControl></InputControl> -->
       <!-- <RuleForm></RuleForm> -->
       <!-- <Computed></Computed> -->
       <!-- <Counter></Counter> -->
       <!-- <Lazy></Lazy> -->
-      <axios></axios>
+      <!-- <axios></axios> -->
+      <!-- <ListFilter></ListFilter> -->
+      <Popover></Popover>
   </div>
 </template>
 <script>
@@ -25,19 +27,23 @@ import Computed from './components/Computed'
 import Counter from './components/Counter'
 import Axios from './components/Axios'
 // import Lazy from './components/Lazy'
+import ListFilter from './components/Filter'
+import Popover from './components/Popover'
 
 export default{
   name:'App',
   components:{
     HelloWorld,
-    Home,
-    about,
-    SelectControl,
-    InputControl,
-    RuleForm,
-    Computed,
-    Counter,
-    Axios
+    ListFilter,
+    Popover
+    // Home,
+    // about,
+    // SelectControl,
+    // InputControl,
+    // RuleForm,
+    // Computed,
+    // Counter,
+    // Axios
     // Lazy
   }
 }

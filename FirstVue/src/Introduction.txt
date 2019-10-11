@@ -11,3 +11,4 @@ Computed.vue computed
 InputControl.vue
 SelectControl.vue
 RuleForm.vue
+Popover.vue table里面嵌套Popover并且包含dialogue
